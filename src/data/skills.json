@@ -1,0 +1,24 @@
+{
+    "groups": [
+        {
+            "title": "Frontend",
+            "items": ["HTML", "CSS", "JavaScript", "TypeScript", "jQuery", "SASS", "TailwindCSS"]
+        },
+        {
+            "title": "Backend",
+            "items": ["PHP", "REST API", "MySQL"]
+        },
+        {
+            "title": "CMS / Platforms",
+            "items": ["WordPress", "Drupal"]
+        },
+        {
+            "title": "Tools / DevOps",
+            "items": ["Git", "Docker", "Figma", "Apache", "Nginx", "AI"]
+        },
+        {
+            "title": "Others",
+            "items": ["Godot", "GDScript", "Video editing", "Image editing"]
+        }
+    ]
+}

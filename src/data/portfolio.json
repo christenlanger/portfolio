@@ -1,0 +1,55 @@
+[
+    {
+        "title": "EML Careers",
+        "link": "https://portfolio.razaris.net/careers-eml/",
+        "description": "- Built in WordPress with custom integration to a third-party career API before merging with the corporate website.\n\n- Page built with Gutenberg.",
+        "tools": ["WordPress", "PHP", "REST API", "JavaScript"],
+        "image": "images/site-careers.png",
+        "size": "212%",
+        "position": "44% 42%"
+    },
+    {
+        "title": "EML Onboarding",
+        "link": "https://portfolio.razaris.net/eml-onboarding/",
+        "description": "- A simple onboarding page previously used by the company for new employees.\n\n- Built with vanilla HTML, CSS, and JavaScript.",
+        "tools": ["HTML", "CSS", "JavaScript"],
+        "image": "images/site-onboarding.png",
+        "size": "204%",
+        "position": "25% 16%"
+    },
+    {
+        "title": "Hospitality Industry Insurance",
+        "link": "https://www.hii.au/",
+        "description": "- A Drupal website that was handed over for maintenance and implementation of new functions.\n\n- First exposure to Drupal.\n\n- Corrected errors in its installation.",
+        "tools": ["Drupal", "PHP", "JavaScript", "Node.js"],
+        "image": "images/site-hii.png",
+        "size": "174%",
+        "position": "50% 5%"
+    },
+    {
+        "title": "Inappropriate Corporation",
+        "link": "https://www.inappropriatecorp.com.au/",
+        "description": "- A micro-site for promoting a video series regarding mental health.\n\n- Built with custom HTML and WordPress ACF.",
+        "tools": ["WordPress", "PHP", "JavaScript", "YouTube"],
+        "image": "images/site-inapp.png",
+        "size": "180%",
+        "position": "50% 30%"
+    },
+    {
+        "title": "Pure Force 505",
+        "link": "https://www.pureforce505.com/en/home",
+        "description": "- A website I developed from a freelance job.\n\n- Built in WordPress with a multilingual plugin.",
+        "tools": ["WordPress", "PHP", "JavaScript"],
+        "image": "images/site-pureforce.png",
+        "size": "180%",
+        "position": "50% 30%"
+    },
+    {
+        "title": "Github Page",
+        "link": "https://github.com/christenlanger",
+        "description": "- Repository for my small learning projects.",
+        "image": "images/site-github.png",
+        "size": "204%",
+        "position": "25% 16%"
+    }
+]
