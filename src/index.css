@@ -1,91 +1,96 @@
 @import "tailwindcss";
 
 :root {
-    --color-fg: rgb(216, 216, 216);
-    --color-bg: rgb(31, 31, 31);
+  --color-fg: rgb(216, 216, 216);
+  --color-bg: rgb(31, 31, 31);
 
-    --color-fg-hover: rgb(255, 255, 255);
+  --color-fg-hover: rgb(255, 255, 255);
 
-    color-scheme: dark light;
+  color-scheme: dark light;
 
-    font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-    line-height: 1.5;
-    font-weight: 400;
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
 
-    font-synthesis: none;
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 
-    box-sizing: border-box;
+  box-sizing: border-box;
 
-    --text-compress: text-compress 0.5s ease-out forwards;
+  --content-width: 480px;
+  --content-padding: max(10px, calc(((100dvw - var(--content-width)) / 2)));
+
+  --text-compress: text-compress 0.5s ease-out forwards;
 }
 
-*, *::before, *::after {
-    box-sizing: inherit;
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
-    background-color: var(--color-bg);
-    color: var(--color-fg);
-    display: flex;
-    justify-content: center;
+  background-color: var(--color-bg);
+  color: var(--color-fg);
+  display: flex;
+  justify-content: center;
 }
 
 #root {
-    width: 100dvw;
-    max-width: 480px;
+  width: 100dvw;
+  padding: 0 var(--content-padding);
 }
 
 a {
-    color: var(--color-fg);
-    text-decoration: none;
+  color: var(--color-fg);
+  text-decoration: none;
 
-    &:hover {
-        color: var(--color-fg-hover);
-        text-decoration: underline;
-    }
+  &:hover {
+    color: var(--color-fg-hover);
+    text-decoration: underline;
+  }
 }
 
 .section-header {
-    font-size: 1.875rem;
-    font-weight: 600;
-    line-height: 4;
+  font-size: 1.875rem;
+  font-weight: 600;
+  line-height: 4;
 }
 
 @keyframes text-compress {
-    0% {
-        opacity: 0;
-        padding-right: 2rem;
-    }
+  0% {
+    opacity: 0;
+    padding-right: 2rem;
+  }
 
-    100% {
-        opacity: 1;
-        padding-right: 1rem;
-    }
+  100% {
+    opacity: 1;
+    padding-right: 1rem;
+  }
 }
 
 @media (prefers-color-scheme: light) {
-    :root {
-        --color-fg: rgb(22, 22, 22);
-        --color-bg: rgb(220, 220, 220);
-        --color-fg-hover: rgb(75, 75, 75);
-    }
+  :root {
+    --color-fg: rgb(22, 22, 22);
+    --color-bg: rgb(220, 220, 220);
+    --color-fg-hover: rgb(75, 75, 75);
+  }
 }
 
 @media screen and (min-width: 768px) {
-    #root {
-        max-width: 1024px;
-    }
+  :root {
+    --content-width: 1024px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
-    #root {
-        max-width: 1330px;
-    }
+  :root {
+    --content-width: 1330px;
+  }
 }
