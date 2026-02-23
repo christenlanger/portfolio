@@ -13,7 +13,7 @@ export default function Header({ links = [] }: Props) {
   const navList = links.map((link, idx) => (
     <button
       key={`link-${idx}`}
-      className="px-6 py-2 rounded-4xl cursor-pointer hover:bg-stone-900 transition-colors"
+      className="px-6 py-2 rounded-4xl cursor-pointer hover:bg-gray-300 hover:text-gray-900 transition-colors"
       onClick={link.callback}
     >
       {link.title}

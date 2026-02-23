@@ -44,8 +44,8 @@ export default function Tile({
     <article
       aria-expanded={expanded}
       tabIndex={0}
-      className={`group relative w-96 h-96 p-4 border-2 hover:border-teal-500 rounded-2xl overflow-hidden cursor-pointer bg-no-repeat transition-all duration-500
-                ${expanded ? "max-h-96 border-teal-500" : "max-h-36 border-teal-800"}`}
+      className={`group relative w-96 h-96 p-4 border-2 hover:border-cyan-500 rounded-2xl overflow-hidden cursor-pointer bg-no-repeat transition-all duration-500
+                ${expanded ? "max-h-96 border-cyan-500" : "max-h-36 border-cyan-800"}`}
       style={{
         backgroundImage: image ? `url(/${image})` : undefined,
         backgroundSize: size,
