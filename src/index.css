@@ -20,7 +20,7 @@
   box-sizing: border-box;
 
   --content-width: 480px;
-  --content-padding: max(10px, calc(((100dvw - var(--content-width)) / 2)));
+  --content-padding: max(2px, calc(((100dvw - var(--content-width)) / 2)));
 
   --text-compress: text-compress 0.5s ease-out forwards;
 }

@@ -35,7 +35,7 @@ export default function Header({ links = [] }: Props) {
         I build responsive web applications with React and modern tooling. Focused on performance,
         accessibility, and clean architecture.
       </p>
-      <nav className="p-16 flex gap-2">{navList}</nav>
+      <nav className="py-16 flex gap-2">{navList}</nav>
     </header>
   );
 }
